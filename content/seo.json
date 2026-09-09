@@ -48,5 +48,117 @@
     ]
   ],
   "reference": null,
-  "googleVerification": "TMdY5YFKPrSoVv3fC5iyCopvPVAm9JPLyi2OVYoBrOk"
+  "googleVerification": "TMdY5YFKPrSoVv3fC5iyCopvPVAm9JPLyi2OVYoBrOk",
+  "guideIntro": "Create a readable personal allergy summary, decide whether to include medications, and understand what happens to a printed or saved copy after the session ends.",
+  "finchnodeContext": "AllergyFolio’s connection is powered by FinchNode. The product’s contribution is a compact, printable layout for supplied allergy details and optional medication names, with clear limits on what a personal copy can establish.",
+  "articles": [
+    {
+      "slug": "print-a-personal-allergy-summary",
+      "title": "How to print a personal allergy summary with AllergyFolio",
+      "description": "Review recorded reactions, severity and verification fields, choose whether to include medications, and check the print preview before saving a personal copy.",
+      "published": "2026-09-09",
+      "sections": [
+        {
+          "heading": "Review the identity and recorded entries",
+          "paragraphs": [
+            "The summary starts with the name from the authorized record. Check that it is the intended record before making a copy. For each allergy entry, read the label, recorded reaction, source severity, status and verification information. Missing fields are displayed as not supplied."
+          ]
+        },
+        {
+          "heading": "Decide whether medication names belong on this copy",
+          "paragraphs": [
+            "The optional medication checkbox adds recorded medication names to the summary. It does not turn the page into a full medication review or add detailed directions. Choose the option according to the purpose of the personal copy you are making."
+          ],
+          "items": [
+            "Check the displayed identity.",
+            "Read every included allergy entry and its source context.",
+            "Choose whether to include recorded medication names.",
+            "Open the browser print preview and check that the text is readable."
+          ]
+        },
+        {
+          "heading": "Use the browser’s print controls",
+          "paragraphs": [
+            "“Print my summary” opens the browser print dialog. Paper size, margins, page breaks and saving as PDF are handled there. Inspect the preview before printing or saving, especially when the record contains several entries."
+          ]
+        },
+        {
+          "heading": "Label the copy for what it is",
+          "paragraphs": [
+            "AllergyFolio produces a personal summary, not a verified emergency ID or a clinical certificate. An empty returned list does not establish that someone has no allergies. The copy does not update itself; compare it with the appropriate current source when you next use it. Live imports remain subject to production activation."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question": "Does the medication option include doses?",
+          "answer": "The optional section lists recorded medication names. It is not a complete directions or prescription report."
+        },
+        {
+          "question": "Can AllergyFolio certify my allergy information?",
+          "answer": "No. It formats returned source information for personal review and printing."
+        }
+      ],
+      "references": [
+        {
+          "label": "AllergyFolio interface implementation",
+          "url": "https://github.com/allergyfolio/app/blob/main/app/view.tsx"
+        }
+      ]
+    },
+    {
+      "slug": "printed-summary-after-disconnecting",
+      "title": "What happens to a printed allergy summary after disconnecting?",
+      "description": "Understand why ending an AllergyFolio session or revoking a connection does not update or erase paper copies and saved PDFs.",
+      "published": "2026-09-09",
+      "sections": [
+        {
+          "heading": "A printout is a separate object",
+          "paragraphs": [
+            "The page on screen is part of a temporary record session. A paper printout or saved PDF is a separate copy created through the browser. Once produced, it does not depend on the session remaining open to be readable."
+          ]
+        },
+        {
+          "heading": "Disconnecting ends access, not the life of a copy",
+          "paragraphs": [
+            "Ending a local session removes that session’s access in the application. Managing or revoking authorized sharing acts on the connection. Neither action can reach a sheet of paper or automatically remove a file you saved elsewhere."
+          ]
+        },
+        {
+          "heading": "Keep your copies understandable",
+          "paragraphs": [
+            "Before relying on a saved summary, consider when you created it and whether the source information may have changed. If you replace an old copy, manage the old paper or file yourself. The app does not offer a remote document update or deletion mechanism."
+          ]
+        },
+        {
+          "heading": "Make a deliberate decision to export",
+          "paragraphs": [
+            "The print control is an explicit action, which gives you a moment to review what will leave the temporary workspace. Use the preview to confirm whether medication names are included and whether the source details remain readable. Avoid placing personal health information in public issue trackers when asking about a formatting problem."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question": "Will a saved PDF change when the source record changes?",
+          "answer": "No. A saved PDF is a snapshot of the page when you printed it."
+        },
+        {
+          "question": "Can the site erase a copy I already printed?",
+          "answer": "No. Paper and separately saved files are outside the site’s session controls."
+        }
+      ],
+      "finchnode": {
+        "heading": "Connection controls and the paper boundary",
+        "text": "FinchNode is the connection provider used by AllergyFolio’s source implementation. The sharing controls apply to that authorized access. AllergyFolio’s print feature creates a different kind of object: a personal copy whose handling remains with its recipient.",
+        "label": "FinchNode sharing controls",
+        "url": "https://finchnode.com/me"
+      },
+      "references": [
+        {
+          "label": "AllergyFolio interface implementation",
+          "url": "https://github.com/allergyfolio/app/blob/main/app/view.tsx"
+        }
+      ]
+    }
+  ]
 }

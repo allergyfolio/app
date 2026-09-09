@@ -71,3 +71,10 @@ Keep canonical URLs on the custom domain configured in `content/seo.json`. Add o
 ## Independent business handoff
 
 [Business handoff](HANDOFF.md) covers product identity, the receiving business’s production setup, domain migration, search verification and ongoing editorial maintenance.
+
+## More product guides
+
+Create a readable personal allergy summary, decide whether to include medications, and understand what happens to a printed or saved copy after the session ends.
+
+- [How to print a personal allergy summary with AllergyFolio](https://allergyfolio.com/guides/print-a-personal-allergy-summary.html) — Review recorded reactions, severity and verification fields, choose whether to include medications, and check the print preview before saving a personal copy.
+- [What happens to a printed allergy summary after disconnecting?](https://allergyfolio.com/guides/printed-summary-after-disconnecting.html) — Understand why ending an AllergyFolio session or revoking a connection does not update or erase paper copies and saved PDFs.
