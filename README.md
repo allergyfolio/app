@@ -1,6 +1,6 @@
-# AllergyFolio
+# AllergyFolio — Printable allergy summary & source record review
 
-Keep the important details close. Allergy information supplied through FinchNode.
+Review recorded substances, reactions and severity, then print a personal allergy summary with AllergyFolio. Keep source context and missing-record limits visible.
 
 **Site:** https://allergyfolio.onrender.com/  
 **Repository:** https://github.com/allergyfolio/app
@@ -52,3 +52,22 @@ A real patient must perform their own EHR authentication and consent; these test
 ## Domain candidate
 
 `allergyfolio.com` was available on September 8, 2026; Porkbun displayed $11.08 for initial registration and renewal. No domain was purchased. Availability and price can change. Add it to Render and the backend's explicit origin allowlist before use.
+
+<!-- public-discovery -->
+## Public guide and project context
+
+[What belongs on a personal allergy summary?](https://allergyfolio.onrender.com/guides/what-belongs-on-an-allergy-summary.html) — A practical guide to reviewing the fields on your summary and understanding what a printed copy cannot establish.
+
+[Search AllergyFolio guides](https://allergyfolio.onrender.com/guides/) · [About the site](https://allergyfolio.onrender.com/about.html) · [Sitemap](https://allergyfolio.onrender.com/sitemap.xml)
+
+AllergyFolio is a standalone product with its own interface, documentation and repository, prepared for independent business operation and continued development. Its FinchNode integration is documented in the code. Live production activation remains pending.
+
+## Public-page build and discoverability
+
+Edit `content/seo.json` for reviewed article text and site metadata. `npm run build` generates public HTML pages, a sitemap, social metadata and structured data, then prerenders the actual React homepage. `npm run test:seo` checks the built crawl surface after a build. Public guide search filters only public text in the browser; no patient data or search analytics enter the index.
+
+Keep canonical URLs on the deployed origin until a custom domain is registered and configured. Add only public, canonical pages to the sitemap. Validate links, mobile layout and the built HTML after editorial changes. Search engine indexing and rich results are not guaranteed.
+
+## Independent business handoff
+
+[Business handoff](HANDOFF.md) covers product identity, the receiving business’s production setup, domain migration, search verification and ongoing editorial maintenance.

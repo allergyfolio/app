@@ -1,0 +1,51 @@
+{
+  "slug": "allergyfolio",
+  "title": "AllergyFolio",
+  "description": "Review recorded substances, reactions and severity, then print a personal allergy summary with AllergyFolio. Keep source context and missing-record limits visible.",
+  "attribution": "Allergy information supplied through FinchNode.",
+  "domain": "allergyfolio.com",
+  "purpose": "Printable allergy summary",
+  "theme": "Red-accented identity card",
+  "workflow": "Read source allergy information and print a personal summary with optional medications.",
+  "repositoryStatus": "public",
+  "renderStatus": "live",
+  "repository": "https://github.com/allergyfolio/app",
+  "liveUrl": "https://allergyfolio.onrender.com/",
+  "homepage": "individually designed full website",
+  "importRoute": "/#/import",
+  "subject": "Printable allergy summary & source record review",
+  "color": "#a8222b",
+  "paper": "#fff6ef",
+  "label": "Before you print",
+  "article": "what-belongs-on-an-allergy-summary",
+  "headline": "What belongs on a personal allergy summary?",
+  "summary": "A practical guide to reviewing the fields on your summary and understanding what a printed copy cannot establish.",
+  "topics": [
+    "allergy-records",
+    "printable-summary",
+    "personal-health-records"
+  ],
+  "sections": [
+    [
+      "Keep the recorded details together",
+      "AllergyFolio presents the substance, reaction, severity and verification information supplied in an authorized record. These fields tell different parts of the source entry. A compact summary should preserve those distinctions rather than reduce the entry to a substance name in large type. The app organizes the source information; it does not verify an allergy."
+    ],
+    [
+      "Read before printing",
+      "Review each entry and any missing-category or sync warnings before creating a copy. The summary can include recorded medications if that information is useful for your conversation. Adding them does not create an interaction check or establish that the list is current. Questions and corrections should be discussed with the relevant care team or source organization."
+    ],
+    [
+      "An empty list is not a clearance",
+      "No returned allergy entries can mean information was unavailable, outside the selected categories or absent from the supplied snapshot. It must not be read as proof of no allergies. AllergyFolio deliberately keeps this limitation visible. A personal printout is not a verified emergency identifier, a clinical certification or a substitute for the medical record."
+    ],
+    [
+      "A copy has its own lifetime",
+      "Printing creates a separate copy that will not change when the source is corrected or a session ends. Consider where you keep it and who can see it. Check the available source context again before relying on an older copy for a new conversation. Revoking digital access cannot retrieve paper already printed or remove a downloaded file."
+    ],
+    [
+      "Connection and availability",
+      "The public site is ready for browsing, and the record workflow requires production activation before live imports are available. You will choose categories before external authorization. The privacy notice explains the current connection and consent details. Its guides remain public and contain no patient records."
+    ]
+  ],
+  "reference": null
+}
