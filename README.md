@@ -2,7 +2,7 @@
 
 Review recorded substances, reactions and severity, then print a personal allergy summary with AllergyFolio. Keep source context and missing-record limits visible.
 
-**Site:** https://allergyfolio.onrender.com/  
+**Site:** https://allergyfolio.com/
 **Repository:** https://github.com/allergyfolio/app
 
 ## Production integration
@@ -45,20 +45,20 @@ CSP `connect-src` must allow only `https://finchapps-connect.onrender.com`. Depl
 
 ## Privacy and verification
 
-Read [the data-handling notice](https://allergyfolio.onrender.com/privacy.html). No clinical record is saved in browser storage; visible data is held in memory, cleared on hiding the page, and periodically revalidated. No browser agent tools expose medical data. Unit tests validate production envelopes and preserve source values. Backend tests cover origin/session isolation, scope checks, invalid environments, expiration and signed revocation without using real medical data.
+Read [the data-handling notice](https://allergyfolio.com/privacy.html). No clinical record is saved in browser storage; visible data is held in memory, cleared on hiding the page, and periodically revalidated. No browser agent tools expose medical data. Unit tests validate production envelopes and preserve source values. Backend tests cover origin/session isolation, scope checks, invalid environments, expiration and signed revocation without using real medical data.
 
 A real patient must perform their own EHR authentication and consent; these tests do not claim successful patient connectivity. Availability varies by healthcare organization.
 
-## Domain candidate
+## Custom domain
 
-`allergyfolio.com` was available on September 8, 2026; Porkbun displayed $11.08 for initial registration and renewal. No domain was purchased. Availability and price can change. Add it to Render and the backend's explicit origin allowlist before use.
+`allergyfolio.com` is registered through Squarespace and assigned to this Render site. DNS uses an apex A record pointing to `216.24.57.1` and a `www` CNAME pointing to `allergyfolio.onrender.com`. Render redirects `www` to the apex domain and manages HTTPS certificates.
 
 <!-- public-discovery -->
 ## Public guide and project context
 
-[What belongs on a personal allergy summary?](https://allergyfolio.onrender.com/guides/what-belongs-on-an-allergy-summary.html) — A practical guide to reviewing the fields on your summary and understanding what a printed copy cannot establish.
+[What belongs on a personal allergy summary?](https://allergyfolio.com/guides/what-belongs-on-an-allergy-summary.html) — A practical guide to reviewing the fields on your summary and understanding what a printed copy cannot establish.
 
-[Search AllergyFolio guides](https://allergyfolio.onrender.com/guides/) · [About the site](https://allergyfolio.onrender.com/about.html) · [Sitemap](https://allergyfolio.onrender.com/sitemap.xml)
+[Search AllergyFolio guides](https://allergyfolio.com/guides/) · [About the site](https://allergyfolio.com/about.html) · [Sitemap](https://allergyfolio.com/sitemap.xml)
 
 AllergyFolio is a standalone product with its own interface, documentation and repository, prepared for independent business operation and continued development. Its FinchNode integration is documented in the code. Live production activation remains pending.
 
@@ -66,7 +66,7 @@ AllergyFolio is a standalone product with its own interface, documentation and r
 
 Edit `content/seo.json` for reviewed article text and site metadata. `npm run build` generates public HTML pages, a sitemap, social metadata and structured data, then prerenders the actual React homepage. `npm run test:seo` checks the built crawl surface after a build. Public guide search filters only public text in the browser; no patient data or search analytics enter the index.
 
-Keep canonical URLs on the deployed origin until a custom domain is registered and configured. Add only public, canonical pages to the sitemap. Validate links, mobile layout and the built HTML after editorial changes. Search engine indexing and rich results are not guaranteed.
+Keep canonical URLs on the custom domain configured in `content/seo.json`. Add only public, canonical pages to the sitemap. Validate links, mobile layout and the built HTML after editorial changes. Search engine indexing and rich results are not guaranteed.
 
 ## Independent business handoff
 
