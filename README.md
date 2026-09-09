@@ -78,3 +78,5 @@ Create a readable personal allergy summary, decide whether to include medication
 
 - [How to print a personal allergy summary with AllergyFolio](https://allergyfolio.com/guides/print-a-personal-allergy-summary.html) — Review recorded reactions, severity and verification fields, choose whether to include medications, and check the print preview before saving a personal copy.
 - [What happens to a printed allergy summary after disconnecting?](https://allergyfolio.com/guides/printed-summary-after-disconnecting.html) — Understand why ending an AllergyFolio session or revoking a connection does not update or erase paper copies and saved PDFs.
+
+- [Why printable health tools still matter in an API-first product](https://allergyfolio.com/guides/why-printable-health-tools-still-matter.html) — AllergyFolio explains how a narrow authorized data connection can support a useful paper or PDF output without turning a personal summary into a certificate.

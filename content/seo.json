@@ -159,6 +159,93 @@
           "url": "https://github.com/allergyfolio/app/blob/main/app/view.tsx"
         }
       ]
+    },
+    {
+      "slug": "why-printable-health-tools-still-matter",
+      "title": "Why printable health tools still matter in an API-first product",
+      "description": "AllergyFolio explains how a narrow authorized data connection can support a useful paper or PDF output without turning a personal summary into a certificate.",
+      "published": "2026-09-09",
+      "theme": "portable-output",
+      "sections": [
+        {
+          "heading": "The final interaction may happen away from a screen",
+          "paragraphs": [
+            "A health product can begin with an API and end with a page someone can hold. A printable summary gives a visitor a deliberate way to carry selected information into another conversation. The design question is what remains understandable when navigation, expandable panels and connection controls are no longer present.",
+            "AllergyFolio’s answer is a compact view of supplied allergy details, with optional medication names. The printable page is the product’s output, not merely a screenshot of a larger dashboard."
+          ]
+        },
+        {
+          "heading": "Preserve the fields that make a label interpretable",
+          "paragraphs": [
+            "An allergy label by itself can conceal important distinctions in the returned record. The layout keeps recorded reaction, source severity, status, verification information and source context together. If a field is absent, the page should still communicate that absence.",
+            "Those choices make the copy easier to discuss and inspect. They do not clinically verify the record or establish that an incomplete list is complete. The format should carry the same limitations as the screen it came from."
+          ],
+          "links": [
+            {
+              "label": "AllergyFolio printable summary component",
+              "url": "https://github.com/allergyfolio/app/blob/main/app/view.tsx"
+            }
+          ]
+        },
+        {
+          "heading": "Use connectivity to support a focused output",
+          "paragraphs": [
+            "The AllergyFolio implementation is powered by FinchNode for the authorized record handoff. Its own interface decides which supplied details appear in the compact layout and whether medication names are included. That is the part of the experience a business can refine for its audience.",
+            "A connection layer is valuable here because the product can work from a defined response rather than ask the visitor to retype every field. The current site still requires production activation before it can import live records."
+          ],
+          "links": [
+            {
+              "label": "FinchNode record connections",
+              "url": "https://finchnode.com/"
+            },
+            {
+              "label": "AllergyFolio’s allowed categories and connection setup",
+              "url": "https://github.com/allergyfolio/app/blob/main/README.md"
+            }
+          ]
+        },
+        {
+          "heading": "Treat the print preview as a review step",
+          "paragraphs": [
+            "The print action opens the browser’s dialog. Page size, margins and saving to PDF remain browser choices. Make the preview part of the workflow: a user can check identity, included sections and readability before committing the copy."
+          ],
+          "items": [
+            "Keep the source and missing-field labels legible.",
+            "Avoid a design that implies emergency certification.",
+            "Check long entries and multi-page output.",
+            "Make optional medication names a deliberate choice."
+          ]
+        },
+        {
+          "heading": "Separate portability from ongoing access",
+          "paragraphs": [
+            "Once printed or saved, the summary has a separate lifetime. Ending a session does not update the paper, and changing a source record does not rewrite a saved PDF. A good portable output tells the truth about that boundary.",
+            "For an independent operator, the opportunity is a simple and well-explained artifact. Additional connectivity should serve that artifact’s purpose, rather than expanding record access without a corresponding benefit to the visitor."
+          ],
+          "links": [
+            {
+              "label": "AllergyFolio privacy and copy-handling explanation",
+              "url": "https://allergyfolio.com/privacy.html"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question": "Does an API-backed printout become an official medical document?",
+          "answer": "No. AllergyFolio formats supplied information as a personal summary. Its connection method does not confer clinical certification."
+        },
+        {
+          "question": "Why offer paper when the records are digital?",
+          "answer": "A portable copy can support a conversation outside the app. Its usefulness depends on clear content, source context and an explanation that it will not update automatically."
+        }
+      ],
+      "references": [
+        {
+          "label": "AllergyFolio public source repository",
+          "url": "https://github.com/allergyfolio/app"
+        }
+      ]
     }
   ]
 }
