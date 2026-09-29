@@ -246,6 +246,146 @@
           "url": "https://github.com/allergyfolio/app"
         }
       ]
+    },
+    {
+      "slug": "share-your-allergy-list-in-an-emergency",
+      "title": "How to share your allergy list in an emergency: phone, paper and ID options",
+      "description": "Compare iPhone Medical ID, Android emergency info, signed emergency care plans and medical ID jewelry, and learn how to keep every copy of your allergy list consistent.",
+      "published": "2026-09-28",
+      "kind": "industry",
+      "theme": "industry",
+      "sections": [
+        {
+          "heading": "One allergy list, several audiences",
+          "paragraphs": [
+            "The people who need your allergy information are rarely the same people who treat you routinely. A paramedic may have your locked phone, a teacher may have a paper plan, and an urgent-care clinic may have only what you can tell them. Each of those settings favors a different format.",
+            "This guide compares the common options for making an allergy list available when you cannot explain it yourself. None of them replaces the treatment plan your own clinician gives you; they are ways to make that plan and the underlying allergy list easier to find."
+          ]
+        },
+        {
+          "heading": "iPhone: Medical ID in the Health app",
+          "paragraphs": [
+            "Apple’s Medical ID lives in the Health app. From the Summary tab, tap your profile picture, then Medical ID, and use Edit to fill in fields including Allergies, Medications and Conditions, along with emergency contacts.",
+            "Turning on Show When Locked lets someone open Medical ID from the Lock screen without your passcode. That is the point of the feature, but it also means anything you enter is visible to whoever is holding the phone. Enter what a responder needs, not your whole history."
+          ],
+          "links": [
+            {
+              "label": "Apple: Set up your Medical ID",
+              "url": "https://support.apple.com/en-us/105072"
+            }
+          ]
+        },
+        {
+          "heading": "Android: emergency information in the Safety app",
+          "paragraphs": [
+            "On Android 12 and later, Google’s Safety app (listed as Personal Safety in the Play Store) holds emergency information. Under Your info, the Medical information section has fields for blood type, allergies and medications.",
+            "To make the details visible without unlocking, the app’s Emergency info access setting has a Show when locked option. Google notes that anyone who picks up the phone can then see that information, and you can switch the setting off again in the Safety app. Menus vary slightly between phone makers."
+          ],
+          "links": [
+            {
+              "label": "Google: Get help during an emergency with your Android phone",
+              "url": "https://support.google.com/android/answer/9319337?hl=en"
+            }
+          ]
+        },
+        {
+          "heading": "Paper: a signed emergency care plan",
+          "paragraphs": [
+            "For severe allergies, a written emergency plan signed by a clinician is often what schools, camps and workplaces ask for. FARE’s Food Allergy & Anaphylaxis Emergency Care Plan, formerly called the Food Allergy Action Plan, lists allergens, symptoms, treatment steps and emergency contacts in one page. The American Academy of Pediatrics publishes its own Allergy and Anaphylaxis Emergency Plan.",
+            "The value of a paper plan is that it states what to do, not only what you react to. Ask your clinician to complete it, keep copies wherever you spend time, and replace old copies when doses or instructions change."
+          ],
+          "links": [
+            {
+              "label": "FARE Emergency Care Plan",
+              "url": "https://www.foodallergy.org/living-food-allergy/food-allergy-essentials/food-allergy-anaphylaxis-emergency-care-plan"
+            },
+            {
+              "label": "AAP Allergy and Anaphylaxis Emergency Plan (PDF)",
+              "url": "https://downloads.aap.org/HC/AAP_Allergy_and_Anaphylaxis_Emergency_Plan.pdf"
+            }
+          ]
+        },
+        {
+          "heading": "Wearable: medical ID jewelry and services",
+          "paragraphs": [
+            "The American College of Allergy, Asthma and Immunology notes that some people at risk of anaphylaxis wear medical jewelry so others know they have allergies and may need epinephrine. Jewelry works without a battery or a phone and is visible at a glance.",
+            "Engraving space is limited, so some services add a phone line or online profile behind the ID. MedicAlert Foundation, a nonprofit founded in 1956, pairs its IDs with a membership that includes a 24/7 emergency response team and stored health information. Compare what a service stores, who can reach it and what it costs before signing up."
+          ],
+          "links": [
+            {
+              "label": "ACAAI: Anaphylaxis",
+              "url": "https://acaai.org/allergies/symptoms/anaphylaxis/"
+            },
+            {
+              "label": "MedicAlert Foundation",
+              "url": "https://www.medicalert.org/"
+            }
+          ]
+        },
+        {
+          "heading": "How the options compare",
+          "paragraphs": [
+            "Most people with a serious allergy use more than one of these. The table summarizes the trade-offs."
+          ],
+          "table": {
+            "caption": "Ways to make an allergy list available in an emergency",
+            "columns": [
+              "Option",
+              "Who can see it",
+              "Best for",
+              "Watch out for"
+            ],
+            "rows": [
+              [
+                "iPhone Medical ID",
+                "Anyone holding the phone, if Show When Locked is on",
+                "Responders who check the Lock screen",
+                "Visible to strangers; only as current as your last edit"
+              ],
+              [
+                "Android emergency info",
+                "Anyone holding the phone, if Show when locked is on",
+                "Responders who check the Lock screen",
+                "Menus differ by device; needs Android 12 or later"
+              ],
+              [
+                "Signed emergency care plan",
+                "Whoever holds a copy",
+                "Schools, camps, workplaces, caregivers",
+                "Paper copies drift out of date"
+              ],
+              [
+                "Medical ID jewelry",
+                "Anyone who sees it",
+                "Situations with no phone or paperwork",
+                "Very little space; details may need a linked service"
+              ]
+            ]
+          }
+        },
+        {
+          "heading": "Keep every copy saying the same thing",
+          "paragraphs": [
+            "The riskiest allergy list is two lists that disagree. When an allergy is added, removed or re-described after testing, update each place you keep it on the same day."
+          ],
+          "items": [
+            "Start from the allergy list in your clinician’s record or patient portal, and ask for corrections there first.",
+            "Record the reaction as well as the allergen, because “rash” and “throat swelling” call for different responses.",
+            "Update your phone, the signed plan and any ID service together, then discard old printouts.",
+            "Check expiry dates on epinephrine devices at the same time."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question": "Can first responders see my Medical ID without my passcode?",
+          "answer": "Yes, if you turn on Show When Locked on iPhone or Show when locked on Android. That also means anyone else holding the phone can see it."
+        },
+        {
+          "question": "Should I list mild intolerances alongside severe allergies?",
+          "answer": "That is a question for your clinician. Many people keep emergency formats focused on reactions that need urgent treatment, and keep a fuller list in their medical record."
+        }
+      ]
     }
   ]
 }

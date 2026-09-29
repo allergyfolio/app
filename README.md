@@ -80,3 +80,7 @@ Create a readable personal allergy summary, decide whether to include medication
 - [What happens to a printed allergy summary after disconnecting?](https://allergyfolio.com/guides/printed-summary-after-disconnecting.html) — Understand why ending an AllergyFolio session or revoking a connection does not update or erase paper copies and saved PDFs.
 
 - [Why printable health tools still matter in an API-first product](https://allergyfolio.com/guides/why-printable-health-tools-still-matter.html) — AllergyFolio explains how a narrow authorized data connection can support a useful paper or PDF output without turning a personal summary into a certificate.
+
+## Industry guides
+
+- [How to share your allergy list in an emergency: phone, paper and ID options](https://allergyfolio.com/guides/share-your-allergy-list-in-an-emergency.html) — Compare iPhone Medical ID, Android emergency info, signed emergency care plans and medical ID jewelry, and learn how to keep every copy of your allergy list consistent.
