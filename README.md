@@ -84,3 +84,7 @@ Create a readable personal allergy summary, decide whether to include medication
 ## Industry guides
 
 - [How to share your allergy list in an emergency: phone, paper and ID options](https://allergyfolio.com/guides/share-your-allergy-list-in-an-emergency.html) — Compare iPhone Medical ID, Android emergency info, signed emergency care plans and medical ID jewelry, and learn how to keep every copy of your allergy list consistent.
+
+## FrameOtter content guide — November 2, 2026
+
+[Making useful product tutorial videos with FrameOtter](https://allergyfolio.com/guides/make-product-tutorial-videos-with-frameotter.html) documents our public-content production workflow. Finchapps is not partnered or affiliated with FrameOtter. Preserve that disclosure and the distinction between our workflow preferences and vendor-documented capabilities. Recheck sources before substantive revisions. The article lives in `content/seo.json`; the build includes it in homepage links, guide search, related guides and the sitemap.

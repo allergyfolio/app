@@ -761,6 +761,79 @@
           "answer": "No. A marketing site explains the business and routes inquiries. Scheduling, dispatch, estimates and invoicing usually remain in operational software. Ask the agency to describe exactly how the website connects to that system."
         }
       ]
+    },
+    {
+      "slug": "make-product-tutorial-videos-with-frameotter",
+      "title": "Making useful product tutorial videos with FrameOtter",
+      "description": "How our FrameOtter content workflow keeps a product tutorial focused on the task, the finished output and the written explanation a viewer can return to.",
+      "published": "2026-11-02",
+      "kind": "content",
+      "editorialNote": "Finchapps uses FrameOtter for its video content. Finchapps is not partnered or affiliated with FrameOtter. This is our publisher’s perspective on content production; links go directly to the named services.",
+      "sections": [
+        {
+          "heading": "Show the finished task, then explain the route",
+          "paragraphs": [
+            "A good product tutorial gives the viewer a concrete destination. For AllergyFolio content, the destination is understanding a personal printable summary and what it can show. We use FrameOtter in our video workflow to help shape that explanation, while keeping the product’s written guide as the source for the details.",
+            "Start the brief with what the viewer should recognize at the end. That may be the printable layout, the optional information it includes or the difference between a personal copy and an official clinical record. A tutorial with a clear destination is easier to record, edit and check."
+          ]
+        },
+        {
+          "heading": "Prepare an illustrative example safely",
+          "paragraphs": [
+            "Use approved public information or purpose-made example material. Keep the recording free of real names, record identifiers, browser notifications and personal downloads. If a tutorial needs a populated layout, label the example so a viewer does not mistake it for an actual person’s summary.",
+            "Plan the print-preview shot before recording. Desktop toolbars, file dialogs and a downloads folder can reveal unrelated information, so keep the capture area deliberate. The review should inspect the whole frame rather than only the main application panel."
+          ]
+        },
+        {
+          "heading": "Use the draft to reveal missing steps",
+          "paragraphs": [
+            "FrameOtter describes an assistant that assembles a cut and leaves the timeline editable. In our content process, that gives us a draft to examine for continuity. Does the viewer know what happened between the initial page and the printable result? Is a repeated take removable without hiding an essential action?",
+            "Ask for a focused explanation, then repair the parts that do not match the brief. A useful request might preserve the view of the output, remove duplicate narration and retain the sentence explaining the limits of a personal copy. The editor supplies a draft; we decide whether it teaches the task."
+          ],
+          "links": [
+            {
+              "label": "FrameOtter editing workflow",
+              "url": "https://frameotter.com/video-editor-for-streamers"
+            }
+          ]
+        },
+        {
+          "heading": "Give the final output enough screen time",
+          "paragraphs": [
+            "The result deserves more than a quick flash at the end. Hold on the printable page, identify the relevant labels and explain where the viewer can read more. If the summary is too small to see, use a closer view and a separate overview rather than trying to fit every detail into one shot.",
+            "Do not use decorative effects that obscure the text. A tutorial about a practical output should let the viewer inspect that output. The most useful edit may be a longer, quieter moment with clear narration rather than another transition."
+          ]
+        },
+        {
+          "heading": "Keep the promise accurate in the title and ending",
+          "paragraphs": [
+            "A tutorial title should state the action it teaches. Avoid suggesting that a personal summary certifies a complete allergy history or replaces professional review. The video’s closing line should match the limits in the article, including the fact that a saved or printed copy has its own lifecycle after it leaves the interface.",
+            "A short social version can introduce the workflow, but it should still use careful wording. If an essential limit will not fit, make the topic smaller. Do not assume that placing a link in the description repairs a misleading spoken claim."
+          ]
+        },
+        {
+          "heading": "Publish the video beside durable instructions",
+          "paragraphs": [
+            "Link the current AllergyFolio guide and give the video a concise description of what it demonstrates. Keep the recording brief and the final export together in production notes. When a page layout changes, compare the tutorial with the new interface and revise the affected shots."
+          ],
+          "items": [
+            "Define the finished task before recording.",
+            "Use clearly illustrative material and inspect the whole frame.",
+            "Keep every necessary action visible after cutting.",
+            "Hold on the output and link the detailed written instructions."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "question": "What should a product tutorial demonstrate?",
+          "answer": "One complete task with a visible result and an accurate explanation of its limits. The viewer should know both what to do and what the result establishes."
+        },
+        {
+          "question": "Does using FrameOtter change AllergyFolio’s privacy notice?",
+          "answer": "This article describes our public-content production workflow. It does not introduce a health-record integration or authorize sending private records to FrameOtter."
+        }
+      ]
     }
   ]
 }
